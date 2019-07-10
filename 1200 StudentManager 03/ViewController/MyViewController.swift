@@ -46,7 +46,7 @@ class MyViewController: UIViewController {
             address.text = inforStudent.address
         }
         
-        image.layer.cornerRadius = image.frame.width / 2
+        image.layer.cornerRadius = image.frame.size.width / 2
         image.layer.borderWidth = 1
         image.layer.borderColor = UIColor.gray.cgColor
         image.layer.masksToBounds = true
